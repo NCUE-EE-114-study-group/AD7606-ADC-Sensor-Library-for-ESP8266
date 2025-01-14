@@ -1,6 +1,13 @@
 #include <Arduino.h>
 #include <AD7606_ESP8266.h>
 
+#define BUSY 5
+#define RESET 4
+#define START_CONVERSION 16
+#define CHIP_SELECT 15
+#define MISO 12
+#define SCK 14
+
 // Create an AD7606_ESP8266 object
 AD7606_ESP8266 ad7606;
 
@@ -12,14 +19,7 @@ void setup() {
 
   // Configure pins if necessary; this example shows all pins explicitly
   // Make sure to match your actual wiring
-  ad7606.setPins(
-    5,   // BUSY
-    4,   // RESET
-    16,  // START_CONVERSION
-    15,  // CHIP_SELECT
-    12,  // MISO
-    14   // SCK
-  );
+  ad7606.setPins(BUSY, RESET, START_CONVERSION, CHIP_SELECT, MISO, SCK);
 
   // Configure SPI transmission settings
   // Default: 1MHz, MSBFIRST, SPI_MODE0
