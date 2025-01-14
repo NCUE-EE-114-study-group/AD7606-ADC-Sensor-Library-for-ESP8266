@@ -1,0 +1,10 @@
+AD7606_ESP8266  KEYWORD1
+begin           KEYWORD2
+readData        KEYWORD2
+parseRawBytes   KEYWORD2
+setPins         KEYWORD2
+setSPISettings  KEYWORD2
+setConstants    KEYWORD2
+getRawValue     KEYWORD2
+getVoltage      KEYWORD2
+printAllVoltages KEYWORD2
