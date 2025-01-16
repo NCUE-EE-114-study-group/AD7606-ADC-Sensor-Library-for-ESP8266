@@ -8,7 +8,7 @@
 
 - 透過硬體 SPI 讀取 AD7606 的 8 通道資料
 - 自訂 SPI 速度、位元順序、運作模式
-- 內建簡易的誤差 (scaleFactor & errorConst)
+- 內建簡易的誤差校正參數供調整 (scaleFactor & errorConst)
 - 可直接印出 8 通道電壓資訊
 
 ## 安裝
