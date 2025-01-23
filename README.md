@@ -26,6 +26,9 @@ This library provides functions to communicate with an AD7606 ADC using an ESP82
 5. Call `begin()` to initialize the device.  
 6. Use `readData()` and `parseRawBytes()` to read data, then retrieve voltage with `getVoltage(channel)`, or use `printAllVoltages()` to print all channels.  
 
+## ESP8266 Setup
+![optional description](assets/ESP8266-AD7606_wiring.png)
+
 ## Example
 
 See the example in `examples/BasicRead/BasicRead.ino` for a quick start.
