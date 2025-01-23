@@ -27,6 +27,9 @@
 
 範例程式請參考 `examples/BasicRead/BasicRead.ino`。
 
+## ESP8266 連接方法
+![optional description](assets/ESP8266-AD7606_wiring.png)
+
 ## License
 
 本專案使用 MIT [LICENSE](./LICENSE) 授權
